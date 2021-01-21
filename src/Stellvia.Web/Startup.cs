@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -44,10 +44,11 @@ namespace Stellvia.Web
 
             app.UseStaticFiles();
 
+            //当请求的路径中包含/admin的适合使用指定的配置，
             app.MapWhen(ctx => ctx.Request.Path.StartsWithSegments("/Admin", StringComparison.OrdinalIgnoreCase), application =>
             {
+                //托管项目引用的Stellvia.Admin.Web wasm后台项目, hosted 配置信息需要指定资源路径
                 application.UseBlazorFrameworkFiles("/Admin");
-
                 application.UseRouting();
                 application.UseEndpoints(endpoints =>
                 {
