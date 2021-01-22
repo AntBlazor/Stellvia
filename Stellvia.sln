@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stellvia.Web", "src\Stellvia.Web\Stellvia.Web.csproj", "{6806B2CE-AB0F-4998-906A-DF124C72D5D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stellvia.Web", "src\Stellvia.Web\Stellvia.Web.csproj", "{6806B2CE-AB0F-4998-906A-DF124C72D5D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stellvia.Admin.Web", "src\Stellvia.Admin.Web\Stellvia.Admin.Web.csproj", "{9A7E4B98-B0EF-46A9-A8F4-C22C3D4D1B9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stellvia.Admin.Web", "src\Stellvia.Admin.Web\Stellvia.Admin.Web.csproj", "{9A7E4B98-B0EF-46A9-A8F4-C22C3D4D1B9D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stellvia.Core", "src\Stellvia.Core\Stellvia.Core.csproj", "{791DF325-1859-4587-82A3-CB1E27BFFDEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stellvia.Data", "src\Stellvia.Data\Stellvia.Data.csproj", "{7D441771-8D91-4B27-9CEC-54991CA00295}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{9A7E4B98-B0EF-46A9-A8F4-C22C3D4D1B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A7E4B98-B0EF-46A9-A8F4-C22C3D4D1B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A7E4B98-B0EF-46A9-A8F4-C22C3D4D1B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{791DF325-1859-4587-82A3-CB1E27BFFDEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{791DF325-1859-4587-82A3-CB1E27BFFDEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{791DF325-1859-4587-82A3-CB1E27BFFDEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{791DF325-1859-4587-82A3-CB1E27BFFDEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D441771-8D91-4B27-9CEC-54991CA00295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D441771-8D91-4B27-9CEC-54991CA00295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D441771-8D91-4B27-9CEC-54991CA00295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D441771-8D91-4B27-9CEC-54991CA00295}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
