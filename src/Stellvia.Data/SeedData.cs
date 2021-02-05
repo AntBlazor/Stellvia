@@ -8,6 +8,11 @@ namespace Stellvia.Data
    {
       public static void Seed(DataContext context)
       {
+            context.Database.EnsureCreated();
+
+
+
+
       }
    }
 }
